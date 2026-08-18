@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SECASI | Capacitación y asesoría en seguridad integral</title>
+  <meta name="description" content="SECASI ofrece capacitación y asesoría en seguridad integral para empresas, brigadas e individuos: primeros auxilios, combate de incendios, rescate, evacuación, materiales peligrosos y cursos con registro STPS DC-3.">
+  <meta name="keywords" content="SECASI, capacitación seguridad integral, cursos STPS DC3, primeros auxilios RCP, combate de incendios, búsqueda y rescate, evacuación, materiales peligrosos">
+  <meta property="og:title" content="SECASI | Capacitación y asesoría en seguridad integral">
+  <meta property="og:description" content="Entrenamiento especializado, práctico y accesible para empresas, brigadas e individuos en seguridad y atención de emergencias. Registro STPS DC-3.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/secasi-logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div id="loader" aria-hidden="true">
+    <div class="loader-bulb">
+      <img src="assets/img/secasi-logo.png" alt="">
+    </div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Preparando respuesta...</span>
+  </div>
+
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="SECASI inicio">
+          <img class="nav-logo-img" src="assets/img/secasi-logo.png" alt="Logo de SECASI">
+          <div class="nav-logo-copy">
+            <span>SECASI</span>
+            <span>Seguridad Integral</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#why">Diferencia</a></li>
+            <li><a href="#ambientes">Cursos</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#producto">Programas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contacto" class="btn-gold nav-cta" style="font-size:13px; padding:12px 26px;">
+          Solicitar capacitación
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div id="mob-menu" aria-label="Menú móvil">
+      <a href="#why">Diferencia</a>
+      <a href="#ambientes">Cursos</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#producto">Programas</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto">Solicitar capacitación →</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            <span class="badge-text">Registro STPS DC-3 · Capacitación operativa · Seguridad integral</span>
+          </div>
+
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Capacitación</span></span>
+            <span class="line"><span>que responde</span></span>
+            <span class="line"><span class="accent">cuando cuenta.</span></span>
+          </h1>
+
+          <p class="hero-sub" id="hero-sub">
+            SECASI capacita a empresas, brigadas e individuos para actuar con criterio, técnica y seguridad ante emergencias reales: <strong>primeros auxilios, incendios, rescate, evacuación y materiales peligrosos.</strong>
+          </p>
+
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="#contacto" class="btn-gold">
+              Solicitar cotización
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+            <a href="#ambientes" class="btn-outline">
+              <i class="fa-solid fa-shield-heart" style="font-size:15px; color:var(--silver);"></i>
+              Ver cursos
+            </a>
+          </div>
+
+          <div class="hero-trust" id="hero-trust" aria-label="Credenciales">
+            <div class="trust-item">
+              <i class="fa-solid fa-certificate"></i>
+              STPS DC-3
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-fire-extinguisher"></i>
+              Instructores operativos
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-kit-medical"></i>
+              Emergencias reales
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">La diferencia SECASI</div>
+            <h2 class="why-quote" id="why-heading">
+              La seguridad no se improvisa.
+              <em>Se entrena antes de la emergencia.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            La formación combina teoría, práctica y sentido de ubicación para que cada participante desarrolle habilidades reales, aplicables y accesibles ante escenarios críticos.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-helmet-safety"></i>
+            </div>
+            <h3>Experiencia operativa</h3>
+            <p>Cuerpo de instructores con trayectoria en organismos de seguridad y emergencia públicos por más de 20 años.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-people-group"></i>
+            </div>
+            <h3>Personas preparadas</h3>
+            <p>Programas orientados a formar, actualizar y especializar a personal operativo, brigadas internas e individuos que buscan profesionalizarse.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-clipboard-check"></i>
+            </div>
+            <h3>Enfoque situacional</h3>
+            <p>Planes de emergencia y medidas de seguridad diseñadas según los riesgos y necesidades de cada instalación.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3>Respaldo STPS</h3>
+            <p>Capacitación con registro ante STPS DC-3, enfocada en profesionalizar la respuesta de empresas e instituciones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ambientes" aria-labelledby="amb-heading">
+      <div class="container">
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Áreas de capacitación</div>
+            <h2 class="section-title" id="amb-heading">
+              Entrenamiento para los riesgos<br>
+              <span class="gold">que no admiten dudas</span>
+            </h2>
+            <p style="color:var(--gray); margin-top:16px; font-size:15.5px; max-width:500px; line-height:1.7;">
+              Cursos registrados y orientados a escenarios operativos donde la técnica, la calma y la coordinación hacen la diferencia.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">Formación · Actualización · Especialización</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="assets/img/primeros-auxilios.jpg"
+              alt="Curso de primeros auxilios y RCP impartido por SECASI">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-kit-medical"></i>
+              </div>
+              <h3>Primeros auxilios y RCP</h3>
+              <p>Atención inicial, RCP precoz, desfibrilación rápida y cuidados posteriores al paro cardiaco.</p>
+              <div class="amb-temp">BLS · RCP · respuesta inicial</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="assets/img/hero-incendio.jpg"
+              alt="Capacitación SECASI en combate y prevención de incendios">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-fire-extinguisher"></i>
+              </div>
+              <h3>Combate de incendios</h3>
+              <p>Entrenamiento para prevenir, contener y responder ante eventos con fuego de forma coordinada.</p>
+              <div class="amb-temp">Prevención · operación · control</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="assets/img/busqueda-rescate.jpg"
+              alt="Técnicas de búsqueda y rescate en capacitación SECASI">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true">
+                <i class="fa-solid fa-person-hiking"></i>
+              </div>
+              <h3>Búsqueda y rescate</h3>
+              <p>Técnicas para localizar, asistir y movilizar personas en contextos de emergencia.</p>
+              <div class="amb-temp">Rescate · evacuación · coordinación</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="proceso-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="proceso-header reveal">
+          <div class="label">Cómo trabajamos</div>
+          <h2 class="section-title" id="proceso-heading">
+            Un plan claro para <span class="gold">responder mejor</span>
+          </h2>
+          <p>SECASI parte de las necesidades reales de cada empresa, brigada o participante para definir capacitación, alcance y recursos didácticos.</p>
+        </div>
+
+        <div class="proceso-grid">
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Diagnóstico de necesidades</h3>
+            <p>Identificamos áreas críticas, nivel de experiencia, personal involucrado y escenarios relevantes para la operación o formación.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Formación teórico-práctica</h3>
+            <p>Impartimos instrucción profesional con técnicas, recursos didácticos y práctica aplicada al entorno laboral.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Brigadas listas para actuar</h3>
+            <p>El personal desarrolla ubicación, coordinación y criterio para atender emergencias reales con mayor seguridad.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="producto" aria-labelledby="prod-heading">
+      <div class="container">
+        <div class="producto-wrap">
+          <div class="reveal">
+            <div class="label">Programa integral</div>
+            <h2 class="section-title" id="prod-heading">
+              Capacitación para brigadas<br>
+              <span class="gold">con enfoque operativo</span>
+            </h2>
+            <p class="producto-lead">
+              Los cursos de SECASI cubren las principales áreas de emergencia para que tu equipo, brigada o formación personal tenga claridad antes, durante y después de un incidente.
+            </p>
+
+            <ul class="feature-rows" aria-label="Cursos y áreas de capacitación SECASI">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-heart-pulse"></i></div>
+                <div>
+                  <h4>Soporte vital cardiaco avanzado</h4>
+                  <p>RCP, desfibrilación rápida y protocolos de atención ante eventos cardiacos.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-biohazard"></i></div>
+                <div>
+                  <h4>Manejo de materiales peligrosos</h4>
+                  <p>Identificación de sustancias, lectura de riesgos y medidas de respuesta segura.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-person-running"></i></div>
+                <div>
+                  <h4>Evacuación de inmuebles</h4>
+                  <p>Coordinación, rutas, roles y acciones para movilizar personas ante una emergencia.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-user-shield"></i></div>
+                <div>
+                  <h4>Trabajo en alturas y comando de incidentes</h4>
+                  <p>Formación especializada para operaciones con riesgos específicos y liderazgo en emergencia.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Datos destacados de SECASI">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">STPS</span>
+                <span class="spec-name">Registro DC-3</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">20+</span>
+                <span class="spec-name">Años operativos</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">EC0217</span>
+                <span class="spec-name">CONOCER</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">EC0301</span>
+                <span class="spec-name">CONOCER</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <img class="panel-photo" src="assets/img/materiales-peligrosos.jpg" alt="Capacitación en manejo de materiales peligrosos SECASI">
+              <img class="panel-logo" src="assets/img/secasi-logo.png" alt="" aria-hidden="true">
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Cursos registrados ante STPS
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-bolt" style="color:var(--gold);"></i>
+                Capacitación deducible 100%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" aria-label="Estadísticas clave">
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="20" data-suffix="+"
+                 aria-label="Más de 20 años">0</div>
+            <div class="stat-lbl">Años de experiencia<br>operativa del equipo</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="10" data-suffix=""
+                 aria-label="10 áreas de capacitación">0</div>
+            <div class="stat-lbl">Áreas de<br>capacitación</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="100" data-suffix="%"
+                 aria-label="Cursos deducibles de impuestos al 100%">0</div>
+            <div class="stat-lbl">Cursos deducibles<br>de impuestos</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="3" data-suffix=""
+                 aria-label="Registro STPS DC-3">0</div>
+            <div class="stat-lbl">Formato<br>STPS DC-3</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="container">
+        <div class="sectores-hdr reveal">
+          <div class="label">Ámbitos de aplicación</div>
+          <h2 class="section-title" id="sec-heading">
+            Seguridad situacional para <span class="gold">empresas y personas</span>
+          </h2>
+          <p>Capacitación dirigida a instalaciones, brigadas, equipos e individuos que requieren protocolos claros y habilidades prácticas ante emergencias.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-building sector-icon" aria-hidden="true"></i>
+            <h3>Empresas</h3>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-people-group sector-icon" aria-hidden="true"></i>
+            <h3>Brigadas internas</h3>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-industry sector-icon" aria-hidden="true"></i>
+            <h3>Instalaciones operativas</h3>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-school sector-icon" aria-hidden="true"></i>
+            <h3>Instituciones</h3>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-truck-medical sector-icon" aria-hidden="true"></i>
+            <h3>Personas en formación</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Entrena hoy al equipo que <span class="gold">debe responder mañana</span>
+          </h2>
+          <p>Solicita información sobre capacitación, asesoría, formación de brigadas o entrenamiento individual. Te atenderemos por WhatsApp o correo.</p>
+        </div>
+
+        <div class="contact-box reveal">
+          <div class="contact-info">
+            <h3>Atención SECASI</h3>
+            <p class="ci-sub">Servicios de capacitación y asesores en seguridad integral.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-certificate"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Registro</h4>
+                  <p>STPS DC-3<br>
+                     CONOCER EC0217 y EC0301</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Teléfono</h4>
+                  <p>
+                    <a href="tel:+525554787354">55 54 78 73 54</a>
+                  </p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Correo</h4>
+                  <p>
+                    <a href="mailto:secasi.alcocer1@gmail.com">secasi.alcocer1@gmail.com</a>
+                  </p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>WhatsApp</h4>
+                  <p>Cuéntanos qué tipo de curso o asesoría necesitas.</p>
+                  <a href="https://wa.me/525554787354" target="_blank"
+                     rel="noopener noreferrer" class="ci-wa-link">
+                    Abrir chat →
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-form-wrap">
+            <h3>Solicitar cotización</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. Nombre Apellido" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">¿Qué necesitas?</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Cotización general</option>
+                    <option>Primeros auxilios y RCP</option>
+                    <option>Soporte vital cardiaco avanzado</option>
+                    <option>Combate y prevención de incendios</option>
+                    <option>Manejo de materiales peligrosos</option>
+                    <option>Evacuación de inmuebles</option>
+                    <option>Búsqueda y rescate</option>
+                    <option>Formación de instructores</option>
+                    <option>Comando de incidentes</option>
+                    <option>Trabajo en alturas</option>
+                    <option>Soldadura y corte</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Detalle de la solicitud</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Describe si buscas capacitación para empresa, brigada o formación individual; incluye número de participantes y curso de interés..."></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enviar solicitud por WhatsApp
+              </button>
+              <p class="form-note">
+                Al enviar serás redirigido a WhatsApp para continuar la conversación con SECASI.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="assets/img/secasi-logo.png" alt="Logo SECASI">
+          <span>SECASI.</span>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> SECASI. Servicios de capacitación y asesores en seguridad integral.
+        </p>
+        <div class="footer-socials">
+          <a href="mailto:secasi.alcocer1@gmail.com"
+             class="footer-soc" aria-label="Correo electrónico">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="tel:+525554787354"
+             class="footer-soc" aria-label="Teléfono SECASI">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a href="https://wa.me/525554787354" target="_blank"
+             rel="noopener noreferrer" class="footer-soc" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/525554787354?text=Hola%2C%20visit%C3%A9%20su%20sitio%20web%20y%20quiero%20informaci%C3%B3n%20sobre%20capacitaci%C3%B3n%20en%20seguridad%20integral."
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

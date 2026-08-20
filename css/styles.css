@@ -82,8 +82,8 @@ a {
 }
 
 .loader-bulb {
-  width: 96px;
-  height: 96px;
+  width: 132px;
+  height: 132px;
   display: grid;
   place-items: center;
   border: 1px solid rgba(255, 255, 255, 0.16);
@@ -93,8 +93,8 @@ a {
 }
 
 .loader-bulb img {
-  width: 76px;
-  height: 76px;
+  width: 108px;
+  height: 108px;
   object-fit: contain;
 }
 
@@ -160,8 +160,8 @@ a {
 }
 
 .nav-logo-img {
-  width: 66px;
-  height: 66px;
+  width: 92px;
+  height: 92px;
   object-fit: contain;
   filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.35));
 }
@@ -1331,8 +1331,8 @@ footer {
   .nav-logo { min-width: auto; }
 
   .nav-logo-img {
-    width: 54px;
-    height: 54px;
+    width: 80px;
+    height: 80px;
   }
 
   .nav-logo-copy span:last-child { max-width: 150px; }
